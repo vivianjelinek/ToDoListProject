@@ -14,7 +14,7 @@ struct NewToDoView: View {
     
     var body: some View {
         VStack {
-          
+            //Text("Testing testing")
             Text("Task title:")
                 .font(.title)
                 .fontWeight(.bold)
