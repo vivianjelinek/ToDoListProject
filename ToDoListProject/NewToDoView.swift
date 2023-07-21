@@ -43,6 +43,7 @@ struct NewToDoView: View {
 
 struct NewToDoView_Previews: PreviewProvider {
     static var previews: some View {
-        NewToDoView(title: "", isImportant: false)
+        NewToDoView(title: "", isImportant: false,
+                    toDoItems: .constant([]))
     }
 }
